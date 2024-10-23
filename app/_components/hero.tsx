@@ -1,3 +1,5 @@
+import ConsultationForm from "./consultation-form";
+
 export const Hero = () => {
   return (
     <div className="relative min-h-[600px] pt-20">
@@ -14,7 +16,7 @@ export const Hero = () => {
       </div>
 
       {/* Main hero content */}
-      <div className="container mx-auto px-4 py-12 md:py-20 relative z-10">
+      <div className="container mx-auto px-4 py-12 md:py-5 relative z-10">
         <div className="flex flex-col md:flex-row items-center justify-between">
           {/* Left content */}
           <div className="md:w-1/2 md:pr-12 mb-8 md:mb-0">
@@ -38,6 +40,8 @@ export const Hero = () => {
               Book a Consultation
             </a>
           </div>
+
+          <ConsultationForm />
         </div>
       </div>
     </div>
