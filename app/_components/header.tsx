@@ -32,29 +32,29 @@ export function Header() {
                 Home
               </a>
               <a
-                href="/diseases"
+                href="/#treatments"
                 className="text-gray-700 hover:text-red-700 transition-colors"
               >
                 Diseases
               </a>
-              <a
+              {/* <a
                 href="/blog"
                 className="text-gray-700 hover:text-red-700 transition-colors"
               >
                 Blog
-              </a>
+              </a> */}
               <a
-                href="/about"
+                href="/#doctor"
                 className="text-gray-700 hover:text-red-700 transition-colors"
               >
                 About
               </a>
-              <a
+              {/* <a
                 href="/contact"
                 className="text-gray-700 hover:text-red-700 transition-colors"
               >
                 Contact
-              </a>
+              </a> */}
             </div>
             {/* Appointment Button */}
             <div className="flex-1 flex justify-end">
@@ -87,29 +87,29 @@ export function Header() {
                 Home
               </a>
               <a
-                href="/diseases"
+                href="/#treatments"
                 className="block px-3 py-2 text-gray-700 hover:text-red-700 hover:bg-red-50 rounded-md transition-colors"
               >
                 Diseases
               </a>
-              <a
+              {/* <a
                 href="/blog"
                 className="block px-3 py-2 text-gray-700 hover:text-red-700 hover:bg-red-50 rounded-md transition-colors"
               >
                 Blog
-              </a>
+              </a> */}
               <a
-                href="/about"
+                href="/#doctor"
                 className="block px-3 py-2 text-gray-700 hover:text-red-700 hover:bg-red-50 rounded-md transition-colors"
               >
                 About
               </a>
-              <a
+              {/* <a
                 href="/contact"
                 className="block px-3 py-2 text-gray-700 hover:text-red-700 hover:bg-red-50 rounded-md transition-colors"
               >
                 Contact
-              </a>
+              </a> */}
               <a
                 href="/appointment"
                 className="block px-3 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors shadow-sm"
