@@ -34,7 +34,7 @@ export const Hero = () => {
               effects.
             </p>
             <a
-              href="/treatments"
+              href="tel:+91-9460661374"
               className="inline-block bg-red-600 text-white px-8 py-3 rounded-md hover:bg-red-700 transition-colors"
             >
               Book a Consultation

@@ -59,7 +59,7 @@ export function Header() {
             {/* Appointment Button */}
             <div className="flex-1 flex justify-end">
               <a
-                href="/appointment"
+                href="tel:+919460661374"
                 className="bg-green-600 text-white px-6 py-2 rounded-md hover:bg-green-700 transition-colors shadow-sm"
               >
                 Make an Appointment
@@ -111,7 +111,7 @@ export function Header() {
                 Contact
               </a> */}
               <a
-                href="/appointment"
+                href="tel:+919460661374"
                 className="block px-3 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors shadow-sm"
               >
                 Make an Appointment
